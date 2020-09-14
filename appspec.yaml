@@ -5,6 +5,6 @@ Resources:
       Properties:
         TaskDefinition: "arn:aws:ecs:us-east-2:508758754283:task-definition/aws-hello-world-host:1"
         LoadBalancerInfo:
-          ContainerName: "hello-world-host"
+          ContainerName: "rest-app"
           ContainerPort: "80"
         PlatformVersion: "LATEST"
